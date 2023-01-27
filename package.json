@@ -2,7 +2,7 @@
   "name": "task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tati1129.github.io/task",
+  "homepage": "https://tati1129.github.io/hw_28.01.23",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
