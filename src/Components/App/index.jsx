@@ -1,9 +1,8 @@
+import Header from "../Header/Header"
+import Content from '../Content/Content';
+import Total from "../Total/Total"
+import s from "./style.module.css"
 
-import './App.css';
-
-import Header from "./Components/Header/Header"
-import Content from './Components/Content/Content';
-import Total from "./Components/Total/Total"
 
 const App = () => {
   const course = 'Frontend Pro';
@@ -14,7 +13,7 @@ const App = () => {
   const part3 = 'Использование библиотеки react-router-dom'
   const tasks3 = 15;
   return (
-    <div className='contain'>
+    <div className={s.contain}>
       <Header course={course} />
       <Content part1={part1} part2={part2} part3={part3} tasks1={tasks1} tasks2={tasks2} tasks3={tasks3}/>
       <Total  tasks1={tasks1} tasks2={tasks2} tasks3={tasks3}/>
